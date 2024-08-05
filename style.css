@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  color: purple
 }
 
 .poppins-regular {
@@ -35,7 +36,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #ab47bc;
 }
 
 /*TRANSITION*/
@@ -65,7 +66,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: #ab47bc;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -78,7 +79,19 @@ a:hover {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-size: 2rem;
+}
+
+.logo img{
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1{
+  margin: 0;
 }
 
 .logo:hover {
